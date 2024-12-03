@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap");
+
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #1e1e1e;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-dark.png"); /* Coder-themed background */
+  color: #c5c6c7;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: left;
+  color: #61dafb;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 20px;
+  color: white;
+  margin-bottom: 20px;
+  background-color: #1e1e1e;
+  border: none;
+}
+
+form label {
+  margin: 10px 0 5px;
+  color: #61dafb;
+}
+
+form input,
+form textarea {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  color: #c5c6c7;
+  resize: none; /* Prevent manual resizing */
+}
+
+form button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  color: #c5c6c7;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.todo-container {
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 20px; /* Add margin to avoid overlap with fixed form */
+}
+
+.todo-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.todo-header h1 {
+  margin: 0;
+}
+
+.todo-header .filter-label {
+  color: #61dafb;
+  margin-right: 10px;
+}
+
+.todo-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.todo-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  width: 250px;
+  height: auto;
+}
+
+.todo-card.completed {
+  background-color: #d4edda; /* Light green */
+  color: #155724;
+}
+
+.todo-card.not-completed {
+  background-color: #f8d7da; /* Light red */
+  color: #721c24;
+}
+
+.todo-card h3 {
+  margin: 0;
+}
+
+.todo-card p {
+  margin: 5px 0;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.todo-card .todo-label {
+  color: #000; /* Black color */
+  font-weight: bold;
+}
+
+.todo-card select {
+  margin: 10px 0;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  color: #c5c6c7;
+}
+
+.todo-card button {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  color: #c5c6c7;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #282c34;
+  color: #c5c6c7;
+}
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  text-align: center;
+  color: #c5c6c7;
+}
+
+footer .footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: #61dafb;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .github-icon {
+  margin-right: 5px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .todo-list {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .todo-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  form {
+    padding: 10px;
+  }
+
+  form input,
+  form button {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 5px;
+  }
+
+  form input,
+  form button {
+    padding: 6px;
+  }
+}
