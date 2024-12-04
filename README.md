@@ -57,7 +57,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 👨‍💻 Author
 Created by Harish G - Batch59WD-T
 
-<img alt="GitHub" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png">
 🌟 Acknowledgements
 React
 Vite
