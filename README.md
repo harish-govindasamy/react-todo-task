@@ -19,7 +19,7 @@ Welcome to the **React To-Do App**! This project is a simple and elegant to-do l
 
 ## 📸 Screenshots
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=App+Screenshot)
+![App Screenshot](./src/assets/screenshot.png)
 
 ## 📦 Installation
 
