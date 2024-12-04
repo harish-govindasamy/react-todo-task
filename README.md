@@ -41,24 +41,26 @@ Welcome to the **React To-Do App**! This project is a simple and elegant to-do l
    To preview the production build, run:
    npm run preview
 
-   ```
-   📚 Usage
+📚 Usage
+   
    Add a Task: Enter the task name and description, then click "Add Todo".
    Edit a Task: Click the "Edit" button, modify the task details, and click "Save".
    Delete a Task: Click the "Delete" button to remove the task.
    Filter Tasks: Use the dropdown menu to filter tasks by their status.
-   🤝 Contributing
+   
+🤝 Contributing
+
    Contributions are welcome! Please fork the repository and create a pull request with your changes.
-   ```
+
 
 📄 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+   This project is licensed under the MIT License. See the LICENSE file for details.
 
 👨‍💻 Author
-Created by Harish G - Batch59WD-T
+   Created by Harish G - Batch59WD-T
 
 🌟 Acknowledgements
-React
-Vite
-ESLint
-Made with ❤️ by Harish G
+  React
+  Vite
+  ESLint
+  Made with ❤️ by Harish G
